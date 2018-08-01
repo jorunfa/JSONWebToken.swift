@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.homepage = 'https://github.com/kylef/JSONWebToken.swift'
   spec.license = { :type => 'BSD', :file => 'LICENSE' }
   spec.author = { 'Kyle Fuller' => 'kyle@fuller.li' }
-  spec.source = { :git => 'https://github.com/kylef/JSONWebToken.swift.git' }
+  spec.source = { :git => 'https://github.com/radianttap/JSONWebToken.swift.git', :tag => "#{spec.version}" }
   spec.source_files = 'Sources/JWT/*.swift', 'Build-Phases/common-crypto.sh'
   spec.ios.deployment_target = '8.0'
   spec.osx.deployment_target = '10.9'
